@@ -1,0 +1,66 @@
+body
+{
+  background: rgb(255,198,255);
+background: linear-gradient(90deg, rgba(255,198,255,1) 0%, rgba(253,255,182,1) 50%, rgba(155,246,255,1) 100%);
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding: 30px;
+}
+
+hr{
+
+    width: 300px;
+    border: dotted  #5e60ce;
+    opacity: 0.3;
+    border-width: 8px 0 0 ;
+   
+  
+}
+
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  background: #BDB2FF;
+  background-image: -webkit-linear-gradient(top, #BDB2FF, #FFFFFC);
+  background-image: -moz-linear-gradient(top, #BDB2FF, #FFFFFC);
+  background-image: -ms-linear-gradient(top, #BDB2FF, #FFFFFC);
+  background-image: -o-linear-gradient(top, #BDB2FF, #FFFFFC);
+  background-image: linear-gradient(to bottom, #BDB2FF, #FFFFFC);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  }
+
+  .btn:hover {
+  background: #9C89B8;
+    border: solid #EFC3E6 1px;
+    background-image: -webkit-linear-gradient(top, #9C89B8, #B8BEDD);
+    background-image: -moz-linear-gradient(top, #9C89B8, #B8BEDD);
+    background-image: -ms-linear-gradient(top, #9C89B8, #B8BEDD);
+    background-image: -o-linear-gradient(top, #9C89B8, #B8BEDD);
+    background-image: linear-gradient(to bottom, #9C89B8, #B8BEDD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+  
+
+
